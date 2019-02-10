@@ -1,0 +1,22 @@
+from display import *
+from draw import *
+
+img = new_screen()
+img=line(img,150,150,250,200,[0,0,0])
+img=line(img,150,150,50,100,[0,0,0])
+img=line(img,150,150,250,150,[0,0,0])
+img=line(img,150,150,50,150,[0,0,0])
+img=line(img,150,150,250,250,[0,0,0])
+img=line(img,150,150,50,50,[0,0,0])
+img=line(img,150,150,150,250,[0,0,0])
+img=line(img,150,150,150,50,[0,0,0])
+img=line(img,150,150,200,250,[0,0,0])
+img=line(img,150,150,100,50,[0,0,0])
+img=line(img,150,150,250,100,[0,0,0])
+img=line(img,150,150,50,200,[0,0,0])
+img=line(img,150,150,50,250,[0,0,0])
+img=line(img,150,150,250,50,[0,0,0])
+img=line(img,150,150,200,50,[0,0,0])
+img=line(img,150,150,100,250,[0,0,0])
+display(img)
+save_extension(img, 'img.png')
